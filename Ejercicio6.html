@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <link rel="icon" href="Imagen 1.jpg">
+</head>
+<body style="background-color: lightgrey; margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;">
+    <header style="background-color: darkgreen; color: azure; text-align: center; padding: 20px 0;">
+        <h2 style="margin: 0;"> Uso de Formularios</h2>
+    </header>
+    <main >
+        <form style="display: inline-block; text-align: left; padding: 20px;">
+            <label for="nombre">Nombre :</label>
+            <input type="text" id="nombre" name="nombre" required data-nombre placeholder="Tu nombre aqui">
+            <br><br>
+            <label for="">Correo :</label>
+            <input type="email" name="email" id="email" required data-email>
+            <br><br>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" id="date" name="date" required data-date>
+            <br><br>
+            <label for="foto">Fotografia :</label>
+            <input type="file" id="file" name="file" accept="Imagen/*" data-foto>
+            <br><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+    
+</body>
+</html>
