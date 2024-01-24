@@ -1,0 +1,33 @@
+.head{
+    color: white;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    border-bottom: 1px solid #0b0b0b;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: cadetblue;
+    justify-content: space-between;
+}
+
+.head__logo{
+    height: 75px;
+    margin-bottom: 1rem;
+    align-items: center;
+
+}
+
+.head__nav{
+    text-align: center;
+}
+
+.head__link{
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}

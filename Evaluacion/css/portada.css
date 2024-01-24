@@ -1,0 +1,63 @@
+.portada{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: rgb(1, 106, 112);
+    padding: 150px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.portada__subtitulo{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #F3F8FF;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding-bottom: 35px;
+}
+
+.portada__titulo{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: rgb(225, 225, 221);
+    font-size: 36px;
+    text-align: left;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+.portada__texto{
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    color: #F3F8FF;
+    font-size: 12px;
+    text-align: left;
+    text-shadow: 0 5px 5px rgba(0, 0, 0, 0.20);
+    transform: translate(-50%, -50%);
+    width: 60%;
+}
+
+.portada__boton{ 
+    background-color: rgb(1, 106, 112);
+    border-color: #F3F8FF;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    padding: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    margin-left: 20%;
+}
+.portada__boton:hover{ 
+    cursor: pointer;
+    background-color: rgb(240, 225, 147);
+    color: rgb(1, 106, 112);
+}
