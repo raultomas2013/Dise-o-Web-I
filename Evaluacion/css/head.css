@@ -1,14 +1,11 @@
 .head{
     color: rgb(1, 106, 112);
-    width: 100%;
-    box-sizing: border-box;
+    box-sizing: content-box;
     display: flex;
     flex-direction: row;
     align-items: center;
-    position: absolute;
-    border-bottom: 1px solid #0b0b0b;
+    position: relative;
     padding-top: 1rem;
-    padding-bottom: 1rem;
     background-color: white;
     justify-content: space-between;
 }
@@ -17,12 +14,19 @@
     height: 25px;
     margin-bottom: 1rem;
     align-items: center;
-
+    padding-left: 20px;
 }
 
 .head__nav{
     text-align: center;
-    justify-content: space-between;
+    justify-content: space-around;
+    position: relative;
+    margin-top: 25px;
+}
+
+.head__menu{
+        display: flex;
+        justify-content: flex-end;
 }
 
 .head__link{
